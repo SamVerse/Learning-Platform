@@ -1,0 +1,15 @@
+[package]
+name = "LearningPlatform"
+version = "1.0.0"
+authors = []
+
+[addresses]
+LearningPlatform = '0xd5636a7864e70e1f6c347e2895fac26c9d7eaf7a67bb3f97f2c3ab633d584d85'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
